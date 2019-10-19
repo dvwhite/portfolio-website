@@ -2587,11 +2587,11 @@ input, select, textarea {
 		}
 
 		.icon.style2:before {
-			border-radius: 2.75em;
+			border-radius: 2.25em;
 			display: inline-block;
-			height: 2.75em;
-			line-height: 2.75em;
-			width: 2.75em;
+			height: 2em;
+			line-height: 2em;
+			width: 2em;
 		}
 
 		.icon.major {
@@ -2600,7 +2600,7 @@ input, select, textarea {
 		}
 
 			.icon.major:before {
-				font-size: 1.25rem;
+				font-size: 2.25rem;
 			}
 
 	a.icon.style2:before {
