@@ -6,6 +6,13 @@
 
 /* Icon */
 
+  svg {
+    height: 3rem;
+    width: 3rem;
+    margin: 1.4rem;
+    display: inline-block;
+  }
+
 	.icon {
 		@include icon;
 		border-bottom: none;
@@ -34,11 +41,11 @@
 
 		&.style2 {
 			&:before {
-				border-radius: 2.75em;
+				border-radius: 3em;
 				display: inline-block;
-				height: 2.75em;
-				line-height: 2.75em;
-				width: 2.75em;
+				height: 3em;
+				line-height: 3em;
+				width: 3em;
 			}
 		}
 
@@ -49,8 +56,8 @@
 			&:before {
 				font-size: 1.25rem;
 			}
-		}
-	}
+    }
+  }
 
 	a.icon {
 		&.style2 {
@@ -65,13 +72,13 @@
 	}
 
 	@mixin color-icon($p: null) {
- 		.icon {
- 			&.style2 {
- 				&:before {
-					box-shadow: inset 0 0 0 _size(border-width) _palette($p, border);
- 				}
- 			}
- 		}
+ 		// .icon {
+ 		// 	&.style2 {
+ 		// 		&:before {
+		// 			box-shadow: inset 0 0 0 _size(border-width) _palette($p, border);
+ 		// 		}
+ 		// 	}
+ 		// }
 
 		a.icon {
 			&.style2 {

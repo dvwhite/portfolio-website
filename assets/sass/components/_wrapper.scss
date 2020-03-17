@@ -11,8 +11,8 @@
 			@include padding(_size(padding, default), _size(padding, default) * 0.5);
 			margin: 0 auto;
 			max-width: 100%;
-			width: _size(inner);
-
+      width: _size(inner);
+    
 			&.medium {
 				width: _size(inner) * 0.75;
 			}
